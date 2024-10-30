@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="258.0" prefWidth="283.0" spacing="20.0" style="-fx-background-color: #55AD9B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.FilterModalController">
+   <children>
+      <Button fx:id="WatchingBtn" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="18.0" prefWidth="243.0" styleClass="FilterModalOptions" stylesheets="@../Styles/style.css" text="Watching">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="CompletedBtn" layoutX="23.0" layoutY="120.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="18.0" prefWidth="243.0" styleClass="FilterModalOptions" stylesheets="@../Styles/style.css" text="Completed">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="DroppedBtn" layoutX="23.0" layoutY="141.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="18.0" prefWidth="243.0" styleClass="FilterModalOptions" stylesheets="@../Styles/style.css" text="Dropped">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="OnHoldBtn" layoutX="23.0" layoutY="163.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="18.0" prefWidth="243.0" styleClass="FilterModalOptions" stylesheets="@../Styles/style.css" text="On-Hold">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="PlanToWatchBtn" layoutX="23.0" layoutY="184.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="18.0" prefWidth="243.0" styleClass="FilterModalOptions" stylesheets="@../Styles/style.css" text="Plan to Watch">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</VBox>

@@ -1,0 +1,89 @@
+.text-color{
+    -fx-text-fill: #55AD9B;
+}
+
+.header-button-corner{
+     -fx-background-radius: 35;
+     -fx-background-color: #F1F8E8;
+}
+
+
+.circle{
+    -fx-background-radius: 50;
+}
+
+.circle-text-fill{
+    -fx-text-fill: #F1F8E8;
+}
+
+.add-form-textfield{
+	-fx-background-color: #55AD9B;
+	 -fx-background-radius: 50;
+	 -fx-prompt-text-fill: white;
+}
+
+.AllBtn:hover{
+	-fx-background-color: #d5f0b2fa;
+}
+
+
+.shadow{
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.3, 0.3);
+}
+
+.AddFormButton{
+	  -fx-background-radius: 35;
+     -fx-background-color: #55AD9B;
+     -fx-cursor: hand;
+     	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0.3, 0.5, 0.5);    
+}
+
+
+
+.FilterModalOptions{
+	-fx-background-color: #F0EEE2;
+	 -fx-background-radius: 35;
+	   -fx-cursor: hand;
+}
+
+
+.DarkGreen{
+	-fx-background-color: #55AD9B;
+}
+
+.lightGreen{
+	-fx-background-color: #D8EFD3;
+}
+
+
+
+/* styles.css 
+
+.combo-box {
+    -fx-background-color: lightgray;
+    -fx-padding: 5px;
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: darkgray;
+    -fx-padding: 0.5em;
+
+}
+
+.combo-box .list-cell {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.combo-box .list-cell:filled:selected, .combo-box .list-cell:filled:hover {
+    -fx-background-color: darkgray;
+    -fx-text-fill: white;
+}
+
+.combo-box .text {
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+}
+*/
